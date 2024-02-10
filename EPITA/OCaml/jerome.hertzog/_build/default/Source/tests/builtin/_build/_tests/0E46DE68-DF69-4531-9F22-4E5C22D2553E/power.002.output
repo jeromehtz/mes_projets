@@ -1,0 +1,5 @@
+[33mASSERT[0m -1^12 [10]
+[31mFAIL[0m -1^12 [10]
+
+   Expected: `[32m1[0m'
+   Received: `[31m0[0m'

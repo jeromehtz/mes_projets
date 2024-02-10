@@ -1,0 +1,11 @@
+<testsuites><testsuite package="builtin" id="0" name="builtin" timestamp="2022-06-23T11:16:58" hostname="localhost" tests="4" failures="0" errors="0" time="0"><properties></properties><testcase name="Sign function" classname="builtin.builtin" time="0"></testcase><testcase name="Quot function" classname="builtin.builtin" time="0"></testcase><testcase name="Modulo function" classname="builtin.builtin" time="0"></testcase><testcase name="div function" classname="builtin.builtin" time="0"></testcase></testsuite><testsuite package="power" id="1" name="power" timestamp="2022-06-23T11:16:58" hostname="localhost" tests="4" failures="0" errors="2" time="0"><properties></properties><testcase name="Pow function" classname="power.power" time="0"></testcase><testcase name="Power function" classname="power.power" time="0"></testcase><testcase name="Modular power function" classname="power.power" time="0"><error message="test crashed" type="exception raised">Alcotest assertion failure
+&#27;[31mFAIL&#27;[0m -1^12 [10]
+
+   Expected: `&#27;[32m1&#27;[0m'
+   Received: `&#27;[31m0&#27;[0m'
+</error></testcase><testcase name="Modular power with prime modulo function" classname="power.power" time="0"><error message="test crashed" type="exception raised">Alcotest assertion failure
+&#27;[31mFAIL&#27;[0m -1^11 [11]
+
+   Expected: `&#27;[32m10&#27;[0m'
+   Received: `&#27;[31m1&#27;[0m'
+</error></testcase></testsuite></testsuites>

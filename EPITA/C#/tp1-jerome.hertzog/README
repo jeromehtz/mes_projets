@@ -1,0 +1,12 @@
+ceci est le debut du TP1 en C# sur les boucles
+
+## bonus 1 : 
+L'ordi choisi a chaque tour un chiffre entre 0 et 5 inclus.
+Si le joueur trouve le chiffre de l’ordi il construit une maison. 
+Au bout de 3 maisons, un village est alors construit. 
+Des qu’un village est construit, le compteur des maisons retourne a 0.
+Si 3 villages minimum sont construits, le joueur a gagne.
+
+Le joueur a 20 essais maximum pour construire le plus de villages possibles. 
+Il a a chaque tour 3 essais pour trouver le nombre de l’ordi, sachant que bien evidemment 
+il est genere aleatoirement et peut ainsi varier.

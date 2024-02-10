@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\rejom\\.dotnet\\store\\|arch|\\|tfm|",
+      "/home/jerome.hertzog/.nuget/packages/"
+    ]
+  }
+}

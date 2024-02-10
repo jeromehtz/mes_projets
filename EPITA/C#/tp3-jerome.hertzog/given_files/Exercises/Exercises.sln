@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics", "Basics\Basics.csproj", "{50D5E54D-FA05-425C-9700-DC2F5366F9F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Takuzu", "Takuzu\Takuzu.csproj", "{B73668C1-D5B8-483C-9FA8-A03E3FEB2AAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Picross", "Picross\Picross.csproj", "{5751E83E-A5A5-4220-B6F7-DBAEBF261583}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50D5E54D-FA05-425C-9700-DC2F5366F9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D5E54D-FA05-425C-9700-DC2F5366F9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D5E54D-FA05-425C-9700-DC2F5366F9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D5E54D-FA05-425C-9700-DC2F5366F9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73668C1-D5B8-483C-9FA8-A03E3FEB2AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73668C1-D5B8-483C-9FA8-A03E3FEB2AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73668C1-D5B8-483C-9FA8-A03E3FEB2AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73668C1-D5B8-483C-9FA8-A03E3FEB2AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5751E83E-A5A5-4220-B6F7-DBAEBF261583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5751E83E-A5A5-4220-B6F7-DBAEBF261583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5751E83E-A5A5-4220-B6F7-DBAEBF261583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5751E83E-A5A5-4220-B6F7-DBAEBF261583}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

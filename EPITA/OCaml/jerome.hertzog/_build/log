@@ -1,0 +1,203 @@
+# dune runtest
+# OCAMLPARAM: unset
+# Workspace root: /afs/cri.epita.fr/user/j/je/jerome.hertzog/u/jerome.hertzog
+$ /run/current-system/sw/bin/nproc > /tmp/dune221aa5.output 2> /dev/null
+# Auto-detected concurrency: 4
+# disable binary cache
+$ /run/current-system/sw/bin/ocamlfind printconf path > /tmp/dune898f34.output
+$ /run/current-system/sw/bin/ocamlc.opt -config > /tmp/dune4109a7.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path = None
+#  ; ocaml_bin = External "/run/current-system/sw/bin"
+#  ; ocaml = Ok External "/run/current-system/sw/bin/ocaml"
+#  ; ocamlc = External "/run/current-system/sw/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/run/current-system/sw/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/run/current-system/sw/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/run/current-system/sw/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" :
+#            "/nix/store/dr1kr1jzcxa61yvz8g4g5lgqggh25a8d-ocaml-findlib-1.9.1/lib/ocaml/4.12.0/site-lib"
+#        ; "DUNE_OCAML_STDLIB" :
+#            "/nix/store/zlijai5jhl4z4j573h5f0y8x3apvskn2-ocaml-4.12.0/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "/afs/cri.epita.fr/user/j/je/jerome.hertzog/u/jerome.hertzog"
+#        ; "INSIDE_DUNE" :
+#            "/afs/cri.epita.fr/user/j/je/jerome.hertzog/u/jerome.hertzog/_build/default"
+#        ; "MANPATH" :
+#            "/afs/cri.epita.fr/user/j/je/jerome.hertzog/u/jerome.hertzog/_build/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/afs/cri.epita.fr/user/j/je/jerome.hertzog/u/jerome.hertzog/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/afs/cri.epita.fr/user/j/je/jerome.hertzog/u/jerome.hertzog/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path =
+#      [ External
+#          "/nix/store/dr1kr1jzcxa61yvz8g4g5lgqggh25a8d-ocaml-findlib-1.9.1/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/a619fw36i1vmjh6kpgbic4q9kimr8nqa-ocaml4.12.0-graphics-5.1.1/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/4q1i60asmri2vhdqjy8pdlvy8gm7vvfs-ocaml4.12.0-alcotest-1.4.0/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/bvy6qjggcn7wpnmvnvbgyrdj6jivxngi-ocaml4.12.0-astring-0.8.5/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/3lfzhrm3cgc7phabi0g0akkcb33az62d-ocaml4.12.0-cmdliner-1.0.4/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/161yljq3anb5kh3x2d70v3i5qiyn6v1y-ocaml4.12.0-fmt-0.8.9/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/c9zcfsxqjfg0p884qbzb28lz7j7dzsyd-ocaml4.12.0-junit-2.0.2/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/awafmz82kp3lbwaii9d82l5k11h3wb0i-ocaml4.12.0-junit_alcotest-2.0.2/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/d6vfkmj5mi7j4hfay17la4kc4sdqf6gd-ocaml4.12.0-ocaml-syntax-shims-1.0.0/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/y4j2p0bngj41sr8097s8fg7npby5bhxp-ocamlbuild-0.14.0/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/b7ahq3r9dd35hwknjvbbp5jkgappa0h4-ocaml4.12.0-ptime-0.8.5/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/am88m2l7s7lfwp00mgyr8vrsi2ax15qv-ocaml4.12.0-re-1.9.0/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/11cfk5vgzsdxihcwdhj5bcw0k5zm8ay8-ocaml4.12.0-result-1.5/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/2ki2jwsczr952nv4pay8rmrr8n1sxfca-ocaml4.12.0-seq-0.1/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/wb4risjg4vhxc6ih3d8rz3m9p3jb8p85-ocaml4.12.0-stdlib-shims-0.3.0/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/1z24dqwk6y8ws59xxwq8p52961dgc750-ocaml4.12.0-topkg-1.0.3/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/666p6n8iwk4na5ssf0dcla8c4xrnjzc2-ocaml4.12.0-tyxml-4.5.0/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/zylv2h1lcrnbw61rmq35la00xi50ac25-ocaml4.12.0-uchar-0.0.2/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/7pmjk2y5basw6lxbb0sn9x2b3gkl7d8m-uuidm-0.9.7/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/v8vh9gr4vg59ri21w6m8ab2z49m467r8-ocaml4.12.0-uutf-1.0.2/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/7gg3q4ccnq01nnirnx5qybg53a9i53lg-ocaml4.12.0-zarith-1.12/lib/ocaml/4.12.0/site-lib/"
+#      ; External
+#          "/nix/store/dr1kr1jzcxa61yvz8g4g5lgqggh25a8d-ocaml-findlib-1.9.1/lib/ocaml/4.12.0/site-lib"
+#      ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.12.0"
+#      ; standard_library_default =
+#          "/nix/store/zlijai5jhl4z4j573h5f0y8x3apvskn2-ocaml-4.12.0/lib/ocaml"
+#      ; standard_library =
+#          "/nix/store/zlijai5jhl4z4j573h5f0y8x3apvskn2-ocaml-4.12.0/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-ldl"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-ldl" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "linux"
+#      ; asm = [ "as" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-unknown-linux-gnu"
+#      ; target = "x86_64-unknown-linux-gnu"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X029"
+#      ; cmi_magic_number = "Caml1999I029"
+#      ; cmo_magic_number = "Caml1999O029"
+#      ; cma_magic_number = "Caml1999A029"
+#      ; cmx_magic_number = "Caml1999Y029"
+#      ; cmxa_magic_number = "Caml1999Z029"
+#      ; ast_impl_magic_number = "Caml1999M029"
+#      ; ast_intf_magic_number = "Caml1999N029"
+#      ; cmxs_magic_number = "Caml1999D029"
+#      ; cmt_magic_number = "Caml1999T029"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default/Source/tests/zarithing && ./run_tests.exe --color=always)
+$ (cd _build/default/Source/tests/builtin && ./run_tests.exe --color=always)
+> Testing `builtin'.
+> This run has ID `71630DF1-3D18-4511-8BBE-C0909E6363DB'.
+>
+>   [OK]          builtin          0   Sign function.
+>   [OK]          builtin          1   Quot function.
+>   [OK]          builtin          2   Modulo function.
+>   [OK]          builtin          3   div function.
+>
+> Full test results in `/afs/cri.epita.fr/user/j/je/jerome.hertzog/u/jerome.hertzog/_build/default/Source/tests/builtin/_build/_tests/builtin'.
+> Test Successful in 0.037s. 4 tests run.
+> Testing `power'.
+> This run has ID `0E46DE68-DF69-4531-9F22-4E5C22D2553E'.
+>
+>   [OK]          power          0   Pow function.
+>   [OK]          power          1   Power function.
+> > [FAIL]        power          2   Modular power function.
+>   [FAIL]        power          3   Modular power with prime modulo function.
+>
+> ┌──────────────────────────────────────────────────────────────────────────────┐
+> │ [FAIL]        power          2   Modular power function.                     │
+> └──────────────────────────────────────────────────────────────────────────────┘
+> ASSERT -1^12 [10]
+> FAIL -1^12 [10]
+>
+>    Expected: `1'
+>    Received: `0'
+>
+> Logs saved to `/afs/cri.epita.fr/user/j/je/jerome.hertzog/u/jerome.hertzog/_build/default/Source/tests/builtin/_build/_tests/power/power.002.output'.
+>  ──────────────────────────────────────────────────────────────────────────────
+>
+> Full test results in `/afs/cri.epita.fr/user/j/je/jerome.hertzog/u/jerome.hertzog/_build/default/Source/tests/builtin/_build/_tests/power'.
+> 2 failures! in 0.032s. 4 tests run.
+$ (cd _build/default/Source/tests/scalable && ./run_tests.exe --color=always)
+> Testing `scalable_basic_arithmetics'.
+> This run has ID `23AEEC6D-3EC5-4F90-BA22-2EC3CD74FDD1'.
+>
+>
+[got signal KILL]

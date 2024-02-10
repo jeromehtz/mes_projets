@@ -1,0 +1,113 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+main{
+	padding:25px;
+}
+
+header{
+	color: white;
+	background-color: navy;
+	padding:15px 50px;
+}
+
+header a{
+	color:white;
+	text-decoration: none;
+	margin-left:10px;
+	text-transform: uppercase;
+}
+
+header div{
+	display: inline-block;
+	width:30%;
+
+}
+
+header div:last-child{
+	width:69%;
+	text-align: right;
+}
+
+.formation{
+	border:solid 1px lightgrey;
+	padding:20px 20px 50px 20px;
+	margin:20px 20px 20px 20px;
+}
+
+.formation:hover{
+	/* C'est ici que vous travaillez */
+	padding: 30px 30px 60px 30px;
+	margin: 10px 10px 10px 10px;
+	box-shadow: 1px 1px 14px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 1px 1px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 14px 0px rgba(0,0,0,0.75);
+	transition: 0.5s;
+}
+
+.formation:nth-child(odd){
+	background-color:#ffeaa7;
+}
+
+.formation:nth-child(even){
+	background-color:#fab1a0;
+}
+
+
+.matieres span{
+    display: inline-block;
+    border: solid 1px lightgray;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+    transition: 400ms;
+    background-color:white;
+}
+
+.matieres span:hover{
+	color:white;
+	background-color:darkblue;
+}
+
+@keyframes monAnimation1 {
+    0% {
+        background-color: navy;
+    }
+    50% {
+        background-color: black;
+    }
+    100% {
+       background-color: navy;
+	}
+
+}
+
+header {
+    animation: monAnimation1 6s ease infinite;
+}
+
+@media (min-width: 750px) {
+    .matieres span {
+        background-color: black;
+		color: white;
+    }
+}
+
+@media (max-width: 750px) {
+    .matieres {
+        opacity: 0;
+    }
+
+	nav {
+		opacity: 0;
+	}
+}
+
+@media (min-width: 1250px) {
+   	main {
+		display: flex;
+		align-items: center;
+    }
+}

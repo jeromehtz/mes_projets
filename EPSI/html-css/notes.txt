@@ -1,0 +1,64 @@
+pseudo-classe: :...
+a:hover {
+    color: red;
+} quand on passe sur un élément (a), sa couleur va se changer en rouge
+
+li:nth-child: sélectionner le nième enfant
+
+h1 {
+    transition: background-color 0.3s; correspond à la durée de la transition 
+    (background-color ici)
+}
+
+@keyframes monAnimation {
+    0% {
+        transform: scale(1.0);
+    }
+    50% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+element-a-animer {
+    animation: monAnimation (duree) ease infinite; (degueulasse)
+}
+
+rem : basé sur la taille de police de la racine
+em : basé sur la taille de police du parent
+
+autres unités :
+vw
+vh
+
+responsive design - media query
+
+@media (min-width: 750px) { /*écran de téléphone*/
+    body {
+        background-color: red;
+    }
+}
+
+@media (max-width: 750px) { /*écran de téléphone*/
+    body {
+        background-color: red;
+    }
+}
+
+@media (max-width: 750px) { /*écran de téléphone*/
+    body {
+        background-color: red;
+    }
+}
+
+flexbox 
+    justify-content
+    align-items
+    flex-direction
+    order
+    align-self
+    flex-wrap
+    flex-flow
+    align-content

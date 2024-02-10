@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "kiXfVJeJq+jKgP1Ju24unRkTqCgdbbOGW+noUbNXxNPYp8L+B4iTPesF+nATA4RYsZ447DzuGUutZ+3td7g7yA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rejom\\Documents\\EPITA\\Sharp_TP\\C#\\tp0-jerome.hertzog\\Basics\\Basics\\Basics.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rejom\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\rejom\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\rejom\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\rejom\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

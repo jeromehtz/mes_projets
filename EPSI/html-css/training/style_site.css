@@ -1,0 +1,124 @@
+header {
+
+    color: white;
+    text-align: center;
+    background-color: navy;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 200%;
+    color: white;
+    margin: 15px 15px 15px 15px; 
+}
+
+/*animation header*/
+
+@keyframes monAnimation1 {
+    0% {
+        background-color: navy;
+    }
+    50% {
+        background-color: black;
+    }
+    100% {
+       background-color: navy;
+	}
+
+}
+
+header {
+    animation: monAnimation1 6s ease infinite;
+}
+
+/*******************/
+
+.image {
+    background-image: url("manigod.jpg");
+    background-attachment: fixed;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.texte {
+    background-color: rgb(143, 191, 172);
+    font-size: 200%;
+    color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.les_pages_du_bas {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: gray;
+    width: 50%;
+    border-radius: 40px;
+}
+
+.texte:hover{
+    border-radius: 30px;
+	transition: 0.5s;
+}
+
+.lien {
+    background-color: rgb(220, 204, 204);
+    color: white;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    font-size : 20px;
+    font-family: sans-serif;
+}
+
+
+.image:hover{
+	padding: 30px 30px 60px 30px;
+	margin: 20px 20px 20px 20px;
+	box-shadow: 1px 1px 14px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 1px 1px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 14px 0px rgba(0,0,0,0.75);
+	transition: 0.5s;
+}
+
+@media (max-width: 751px) { /*ça va jusqu'à 750*/
+
+    header {
+        display: flex;
+	    align-items: center;
+        justify-content: space-between;
+    }
+
+    h1 {
+        order: -1;
+    }
+
+    article {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 751px) { /*ici, 751 est compris dans les valeurs affectées par le changement*/
+    header {
+        display: flex;
+	    align-items: center;
+        justify-content: space-between;
+    }
+
+    h1 {
+        order: 0;
+    }
+
+    article {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+}

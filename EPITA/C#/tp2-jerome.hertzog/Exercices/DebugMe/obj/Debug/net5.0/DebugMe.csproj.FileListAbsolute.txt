@@ -1,0 +1,16 @@
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp2-jerome.hertzog\Exercices\DebugMe\bin\Debug\net5.0\DebugMe.exe
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp2-jerome.hertzog\Exercices\DebugMe\bin\Debug\net5.0\DebugMe.deps.json
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp2-jerome.hertzog\Exercices\DebugMe\bin\Debug\net5.0\DebugMe.runtimeconfig.json
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp2-jerome.hertzog\Exercices\DebugMe\bin\Debug\net5.0\DebugMe.runtimeconfig.dev.json
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp2-jerome.hertzog\Exercices\DebugMe\bin\Debug\net5.0\DebugMe.dll
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp2-jerome.hertzog\Exercices\DebugMe\bin\Debug\net5.0\ref\DebugMe.dll
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp2-jerome.hertzog\Exercices\DebugMe\bin\Debug\net5.0\DebugMe.pdb
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp2-jerome.hertzog\Exercices\DebugMe\obj\Debug\net5.0\DebugMe.csproj.AssemblyReference.cache
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp2-jerome.hertzog\Exercices\DebugMe\obj\Debug\net5.0\DebugMe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp2-jerome.hertzog\Exercices\DebugMe\obj\Debug\net5.0\DebugMe.AssemblyInfoInputs.cache
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp2-jerome.hertzog\Exercices\DebugMe\obj\Debug\net5.0\DebugMe.AssemblyInfo.cs
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp2-jerome.hertzog\Exercices\DebugMe\obj\Debug\net5.0\DebugMe.csproj.CoreCompileInputs.cache
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp2-jerome.hertzog\Exercices\DebugMe\obj\Debug\net5.0\DebugMe.dll
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp2-jerome.hertzog\Exercices\DebugMe\obj\Debug\net5.0\ref\DebugMe.dll
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp2-jerome.hertzog\Exercices\DebugMe\obj\Debug\net5.0\DebugMe.pdb
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp2-jerome.hertzog\Exercices\DebugMe\obj\Debug\net5.0\DebugMe.genruntimeconfig.cache

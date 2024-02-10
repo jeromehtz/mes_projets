@@ -1,0 +1,41 @@
+header {
+    background-color: rgb(25, 28, 123);
+    color: white;
+    margin-bottom: 20px;
+}
+
+a {
+    font-family: sans-serif;
+    font-weight: bold;
+    color : white;
+    padding: 50px 20px 20px;
+    text-decoration: none;
+}
+
+.classe1 {
+    background-color: rgb(249, 116, 87);
+    font-family: sans-serif;
+    text-indent: 2.5%;
+    margin: 10px 20px 20px;
+    padding: 10px 10px 20px;
+    border-radius: 15px;
+}
+
+.classe2 {
+    background-color: rgb(87, 207, 249);
+    font-family: sans-serif;
+    text-indent: 2.5%;
+    margin: 10px 20px 20px;
+    padding: 10px 10px 20px;
+    border-radius: 15px;
+}
+
+span {
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 5px 5px;
+}
+
+/*
+#formation p : {} correspond aux p dans dans l'id formation
+*/

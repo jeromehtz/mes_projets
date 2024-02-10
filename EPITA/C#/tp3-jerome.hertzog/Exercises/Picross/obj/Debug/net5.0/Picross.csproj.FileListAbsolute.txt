@@ -1,0 +1,16 @@
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp3-jerome.hertzog\Exercises\Picross\bin\Debug\net5.0\Picross.exe
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp3-jerome.hertzog\Exercises\Picross\bin\Debug\net5.0\Picross.deps.json
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp3-jerome.hertzog\Exercises\Picross\bin\Debug\net5.0\Picross.runtimeconfig.json
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp3-jerome.hertzog\Exercises\Picross\bin\Debug\net5.0\Picross.runtimeconfig.dev.json
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp3-jerome.hertzog\Exercises\Picross\bin\Debug\net5.0\Picross.dll
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp3-jerome.hertzog\Exercises\Picross\bin\Debug\net5.0\ref\Picross.dll
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp3-jerome.hertzog\Exercises\Picross\bin\Debug\net5.0\Picross.pdb
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp3-jerome.hertzog\Exercises\Picross\obj\Debug\net5.0\Picross.csproj.AssemblyReference.cache
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp3-jerome.hertzog\Exercises\Picross\obj\Debug\net5.0\Picross.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp3-jerome.hertzog\Exercises\Picross\obj\Debug\net5.0\Picross.AssemblyInfoInputs.cache
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp3-jerome.hertzog\Exercises\Picross\obj\Debug\net5.0\Picross.AssemblyInfo.cs
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp3-jerome.hertzog\Exercises\Picross\obj\Debug\net5.0\Picross.csproj.CoreCompileInputs.cache
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp3-jerome.hertzog\Exercises\Picross\obj\Debug\net5.0\Picross.dll
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp3-jerome.hertzog\Exercises\Picross\obj\Debug\net5.0\ref\Picross.dll
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp3-jerome.hertzog\Exercises\Picross\obj\Debug\net5.0\Picross.pdb
+C:\Users\rejom\Documents\EPITA\Sharp_TP\C#\tp3-jerome.hertzog\Exercises\Picross\obj\Debug\net5.0\Picross.genruntimeconfig.cache
