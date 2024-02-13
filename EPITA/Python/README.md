@@ -1,1 +1,2 @@
-# en cours...
+Dans ce dossier, il y quelques-uns de mes projets personnels et des programmes que j'ai conçu à l'EPITA.
+J'ai pris soin de ne pas tout mettre, pour les droits et pour mettre seulement les plus cohérents.
