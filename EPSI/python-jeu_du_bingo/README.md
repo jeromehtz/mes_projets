@@ -2,7 +2,7 @@
 
 # 90 boules
 Le bingo se joue généralement avec 90 boules (de 1 à 90). Chaque joueur achète une ou plusieurs grilles, 
-contenant chacune un certain nombre fixe de numéros tirés au hasard, mais tous différents5.
+contenant chacune un certain nombre fixe de numéros tirés au hasard, mais tous différents.
 
 # tirage aléatoire
 Les boules sont tirées une par une, au hasard, généralement grâce à un boulier. À chaque tirage,
