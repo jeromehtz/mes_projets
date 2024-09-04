@@ -25,24 +25,23 @@ def multiplication_11(n) :
     res = res + n_str[i-1]
     retenue = 0
     resultat = 0
-    while i!= 0 :
+    while i!= 1 :
         i-=1
-        if i==0 :
-            resultat = int(n_str[i])+retenue
-            if resultat >= 10 :
-                res = str(resultat-10) + res
-                retenue = 1
-                res = str(retenue) + res
-            else :
-                res = str(resultat) + res
+        resultat = int(n_str[i])+int(n_str[i-1])+retenue
+        if resultat >=10 :
+            res = str(resultat-10) + res
+            retenue = 1
         else :
-            resultat = int(n_str[i])+int(n_str[i-1])+retenue
-            if resultat >=10 :
-                res = str(resultat-10) + res
-                retenue = 1
-            else :
-                res = str(resultat) + res
-                retenue = 0
+            res = str(resultat) + res
+            retenue = 0
+    i=0
+    resultat = int(n_str[i])+retenue
+    if resultat >= 10 :
+        res = str(resultat-10) + res
+        retenue = 1
+        res = str(retenue) + res
+    else :
+        res = str(resultat) + res
     return res
 a = int(input("entrez la valeur de votre nombre : "))
 print(a,"multiplie par 11, cela donne :",multiplication_11(a))

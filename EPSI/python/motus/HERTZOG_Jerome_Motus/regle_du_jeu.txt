@@ -1,0 +1,7 @@
+
+Déroulement d'une partie L’ordinateur commence par choisir un mot de façon aléatoire dans une
+liste de mots de 6, 7 ou 8 caractères. Le nombre de caractère du mot à trouver est indiqué au
+joueur et la première lettre du mot est affichée en rouge. Le joueur propose un mot contenant
+le bon nombre de caractère. L’ordinateur va indiquer au joueur à partir du mot qu’il a proposé,
+les lettres qui sont bien placées en rouge et celles qui sont dans le mot
+à trouver mais mal placées en jaune.
