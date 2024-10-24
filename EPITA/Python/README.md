@@ -1,10 +1,10 @@
 Dans ce dossier, il y quelques-uns de mes projets personnels et des programmes que j'ai conçu à l'EPITA.
 J'ai pris soin de ne pas tout mettre, pour les droits et pour mettre seulement les plus cohérents.
 
-#Multiplication par 11
+# Multiplication par 11
 Ne pas utiliser la multiplication par 11  
 Ni ajouter le nombre 11 fois  
-##Principe :
+## Principe :
 prenons 99.  
   -> on fait une addition avec retenues de chaque chiffre du nombre 2 à 2 voisins en  
   gardant les extremités en ajoutant la retenue pour l'extremité gauche.  
