@@ -1,5 +1,5 @@
 # mes_projets
-Ceci est un repo pour quelques projets que j'ai pu faire à l'école (à l'EPSI et/ou l'EPITA)
+Ceci est un repository pour quelques projets que j'ai pu faire à l'école (à l'EPSI et/ou l'EPITA)
 
 # EPSI - école d'ingénierie informatique
 Le site Internet : https://www.epsi.fr/
