@@ -4,7 +4,7 @@ des groupes de 2.
 
 ### Le principe
 Avec mon collègue, nous avons décidé de faire une application offrant des quiz niveau facile et moyen sur la cybersécurité
-mobile. De plus, on a décidé decréer deux autres pages importantes avec les examens (on va déveloper cela plus tard) et des 
+mobile. De plus, on a décidé de créer deux autres pages importantes avec les examens (on va déveloper cela plus tard) et des 
 conseils concernant la cybersécurité téléphonique.
 
 ## Recettes de cuisine
