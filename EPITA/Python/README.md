@@ -14,5 +14,5 @@ prenons 99.
     - 9+9 = 18 => retenue = 1 car 18>9   
     - donc on a pour le moment 89   
     - et du coup, puisque l'on a une retenue de 1, 9+1 = 10   
-    => 99*11 = 1089  
+    => 99\*11 = 1089  
   autre exemple : 243*11 = 2673, je vous laisse vérifier  
