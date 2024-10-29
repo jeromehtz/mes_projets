@@ -1,4 +1,4 @@
-# mes_projets
+# Mes_projets
 Ceci est un repository pour quelques projets que j'ai pu faire à l'école (à l'EPSI et/ou l'EPITA)
 
 # EPSI - école d'ingénierie informatique

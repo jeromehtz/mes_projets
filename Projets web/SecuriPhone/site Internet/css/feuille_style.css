@@ -1,0 +1,200 @@
+.hidden {
+    display: none;
+}
+
+
+
+h1 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(blue, rgb(9, 229, 236));
+    background-attachment: fixed;
+    font-size: 0.75rem;
+    padding: 15px 15px 15px 15px;
+    color: #fff !important;
+}
+
+.liens {
+    background-color: rgb(236, 236, 236);
+    border-radius: 20px;
+    padding: 15px 15px 15px 15px;
+    font-size: 2rem;
+    margin-left: 30px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    color: black;
+    opacity: 0.5;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: rgb(177, 177, 177);
+}
+.fermeture {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.alignement_accueil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.in-lign {
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    background-color: rgb(126, 183, 236);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    flex-direction: row;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+
+.barre_des_taches {
+    display: flex;
+    justify-self: flex-start;
+    justify-content: space-around;
+} 
+
+
+
+
+
+.popover_menu {
+    border: none;
+}
+
+.logo {
+    margin-top: 15px;
+    border-radius: 20px;
+    width: 25%;
+}
+.logo:hover {
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.questionnaire {
+    background-color: rgb(126, 183, 236);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 15px 15px 15px 15px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* .quiz-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.sens_colonne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.in-lign2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.tips {
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+@media (max-width: 1244px)
+{
+    .tips {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .hidden {
+        display: contents;
+    }
+
+    .hidden2 {
+        display: none;
+    }
+
+    a {
+        text-decoration: none !important;
+        color: black !important;
+    }
+
+    .end {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    header {
+        background-color: rgb(126, 183, 236);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .in-lign2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
